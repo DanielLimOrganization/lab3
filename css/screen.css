@@ -206,3 +206,77 @@ label {
 
 
 /* ===== STATE STYLES ======= */
+h1{
+  background-color: LightSlateGrey;
+  color: white;
+  display: block;
+  font-family: Corbel, Forte, sans-serif;
+  font-size: 2em;
+  margin: 0.4em;
+  padding: 0.5em;
+  position: relative;
+  text-align: center;
+  resize: vertical;
+}
+
+p{
+  background-color: DarkGray;
+  color: white;
+  font-family: Courier New, Modern, sans-serif;
+  font-size: 1em;
+  margin: 0.75em;	
+  padding: 0.5em;
+  resize: vertical;
+  text-align: center;
+}
+
+#content{
+  background-color: #f0f0f0;
+  padding: 0.5em;
+}
+
+#input-email{
+  background-color: lightgrey;
+  font-family: System, Wide-Latin, sans-serif;
+  margin: 0.75em;
+  padding: 0.5em;
+  resize: vertical;
+  text-align: center;
+}
+
+#input-age-verification{
+  background-color: lightgrey;
+  font-family: Modern, Dubai, sans-serif;
+  margin: 0.75em;
+  padding: 0.5em;
+  resize: vertical;
+  text-align: center;
+}
+
+#input-submit{
+  background-color: grey;
+  color: white;
+  font-family: System, Wide-Latin, sans-serif;
+  margin: 0.75em;
+  padding: 0.75em 1.25em;
+  resize: vertical;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: lightgrey;
+}
+
+label {
+  display: inline-block;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    margin-top: 0;
+    width: 100%;
+
+  }
+}
