@@ -208,6 +208,7 @@ label {
 /* ===== STATE STYLES ======= */
 h1{
   background-color: LightSlateGrey;
+  border-radius: 20px;
   color: white;
   display: block;
   font-family: Corbel, Forte, sans-serif;
@@ -221,6 +222,7 @@ h1{
 
 p{
   background-color: DarkGray;
+  border-radius: 20px;
   color: white;
   font-family: Courier New, Modern, sans-serif;
   font-size: 1em;
@@ -232,11 +234,13 @@ p{
 
 #content{
   background-color: #f0f0f0;
-  padding: 0.5em;
+  border-radius: 20px;
+  padding: 0.5em; 
 }
 
 #input-email{
   background-color: lightgrey;
+  border-radius: 20px;
   font-family: System, Wide-Latin, sans-serif;
   margin: 0.75em;
   padding: 0.5em;
@@ -246,6 +250,7 @@ p{
 
 #input-age-verification{
   background-color: lightgrey;
+  border-radius: 20px;
   font-family: Modern, Dubai, sans-serif;
   margin: 0.75em;
   padding: 0.5em;
@@ -255,6 +260,7 @@ p{
 
 #input-submit{
   background-color: grey;
+  border-radius: 20px;
   color: white;
   font-family: System, Wide-Latin, sans-serif;
   margin: 0.75em;
@@ -265,6 +271,7 @@ p{
 
 input[type=submit]:hover {
   background-color: lightgrey;
+  cursor: pointer;
 }
 
 label {
